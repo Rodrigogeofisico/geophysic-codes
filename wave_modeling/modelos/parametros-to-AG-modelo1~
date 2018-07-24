@@ -1,0 +1,8 @@
+Amp	=	600					!! PERTUBAÇÃO PARA GERAÇÃO DA POPULAÇÃO INICIAL
+te		=	0.10					!! Percentual de modelos elitizados
+T0		=	15.0					!! TEMPERATURA INICIAL
+fx		=	1.03					!! Taxa de decaimento da temperatura
+d		=	0.25					!! Extensão da área de busca de modelos
+r		=	0.4					!! Probabilidade de mutação do parâmetro - MUTATION 
+kk		=	2						!! Parâmetro de mutação - MUTATION2,MUTATION     
+Pm		=	0.7					!! probabilidade mutação do parâmetro - MUTATION2 (Todos os modelos)

@@ -1,0 +1,22 @@
+arq1 = 		'modelos/modelo_marmosi.bin'
+alg  =		40
+
+nt	  =		7510             !! mostra 1,2 seg pois: 1,2/0.002=600
+nx	  =		369				 !! Tamanho da malha em x (Campo)
+nz   =		375				 !! Tamanho da malha em z (campo)
+dt   =		0.0004				 !! intervalo de amostragem
+sz   =		1	             !! posição da fonte
+
+sx0  =		120             !! posição do primeiro tiro
+nts  =		1               !! Número de tiros
+dsx  =		70			       !! intervalo entre tiros multiplo de nx OBS:: nts*dsx+sxo <= nx
+
+dx   =		25.				 !! Intervalo da malha
+dz   =		8.				 	 !! Intervalo da malha
+nsnap= 		10              !! Intervalo entre os snaps   !! A quantidade de snaps seria Qsnap=nt/nsnap	
+izr  =		1					 !! Posição dos receptores em Z
+
+fpeak	=     4.1
+Np 	=		3
+p		=     4.
+Niter =     1

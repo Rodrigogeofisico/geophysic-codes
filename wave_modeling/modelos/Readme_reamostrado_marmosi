@@ -1,0 +1,28 @@
+arq1	= 		'modelos/marmo_135x185.bin'
+alg 	=		40
+
+nt	  	=		3001            !! mostra 1,2 seg pois: 1,2/0.002=600
+nx	  	=		185				 !! Tamanho da malha em x (Campo)
+nz   	=		135				 !! Tamanho da malha em z (campo)
+dt   	=		0.0015			 !! intervalo de amostragem
+sz   	=		1	             !! posição da fonte
+
+sx0  	=		3	             !! posição do primeiro tiro
+nts  	=		1              !!36 Número de tiros
+dsx  	=		5 			       !! intervalo entre tiros multiplo de nx OBS:: nts*dsx+sxo <= nx
+
+dx   	=		50.				 !! Intervalo da malha
+dz   	=		16.43956044		 !! Intervalo da malha
+nsnap	= 		10              !! Intervalo entre os snaps   !! A quantidade de snaps seria Qsnap=nt/nsnap	
+izr  	=		1					 !! Posição dos receptores em Z
+fpeak	=     4.1
+Np 	=		4				 !!300, 450,600
+p		=     4.
+Niter =     4
+ddx   = 		9
+ddz 	= 		8
+eps	=		0.05
+scl	=     2.5
+vstart=		1500.
+vend	= 		3500.
+f		= 		2.3*fpeak   

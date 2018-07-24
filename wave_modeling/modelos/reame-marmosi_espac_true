@@ -1,0 +1,21 @@
+arq1 = 		'modelos/marmo_35x93.bin'
+arq2 = 		'snaps-marmo_35x93.bin'
+arq3 = 		'simiograma-marmo_35x93.bin'
+alg  =		40
+
+nt	  =		1001            !! mostra 1,2 seg pois: 1,2/0.002=600
+nx	  =		93					 !! Tamanho da malha em x (Campo)
+nz   =		35					 !! Tamanho da malha em z (campo)
+dt   =		0.003				 !! intervalo de amostragem
+sz   =		1	             !! posição da fonte
+
+sx0  =		47              !! posição do primeiro tiro
+nts  =		1               !! Número de tiros
+dsx  =		70			       !! intervalo entre tiros multiplo de nx OBS:: nts*dsx+sxo <= nx
+
+dx   =		100.				 !! Intervalo da malha
+dz   =		88.				 !! Intervalo da malha
+nsnap= 		10              !! Intervalo entre os snaps   !! A quantidade de snaps seria Qsnap=nt/nsnap	
+izr  =		10					 !! Posição dos receptores em Z
+fpeak=      3.5
+

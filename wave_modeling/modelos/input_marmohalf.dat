@@ -1,0 +1,15 @@
+obsdata=      dado_marmohalf.bin
+velfile=      marmo_135x185.bin
+nz=           135
+nx=           185
+dz=           16.43956044
+dx=           50.
+nt=           3001
+dt=           0.0015
+ns=           36
+sz=           1
+fsx=          3
+dsx=          5
+gz=           1
+fpeak=        2.6
+abcWidth=     45
